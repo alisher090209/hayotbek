@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,600;1,500;1,600&family=Lato:ital,wght@0,400;1,100;1,300&family=Montserrat:ital,wght@0,300;0,400;1,200;1,300&family=Roboto:ital,wght@0,400;1,300;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;1,200&family=Ubuntu+Mono:ital,wght@1,400;1,700&family=Ubuntu:ital,wght@0,700;1,700&display=swap');
+
+:root{
+        --karla: 'Karla', sans-serif;
+        --lato: 'Lato', sans-serif;
+        --monster: 'Montserrat', sans-serif;
+        --roboto: 'Roboto', sans-serif;
+        --sanspro: 'Source Sans Pro', sans-serif;
+        --ubuntu: 'Ubuntu', sans-serif;
+        --mono: 'Ubuntu Mono', monospace;
+}
+
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+     }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 1.4;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.header{
+    width: 100%;
+    height: 15vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.nav__nav{
+    padding: 1.4rem;
+}
+.bars{
+    padding: 1.2rem;
+}
+.nav__nav i{
+    color: #013A68;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.bars{
+    color: #013A68;
+    font-size: 2rem;
+}
+.banner{
+    width: 100%;
+    padding: 4.8rem 0;
+    background-color: whitesmoke;
+}
+.keep__content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+.keep__item .img img{
+    display: block;
+    width: 90%;
+}
+.keep__item h2{
+    color: black;
+    font-family: var(--ubuntu);
+    font-size: 4.5rem;
+    width: 80%;
+    margin-bottom: 0.8rem;
+}
+.keep__item p{
+    color: rgb(213, 206, 192);
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    font-family: var(--ubuntu);
+}
+.keep__item button{
+    padding: 1rem 4rem;
+    border: 0;
+    outline: 0;
+    background-color: #013A68;
+    color: #fff;
+    font-family: var(--ubuntu);
+}
+#button{
+    padding: 1rem 4rem;
+    border: 0;
+    outline: 0;
+    background-color: black;
+    color: #fff;
+    font-family: var(--ubuntu);
+    transition: all 0.8s linear;
+}
+#button:hover{
+    background-color: #013A68;
+}
+.services{
+    width: 100%;
+    padding: 4.8rem 0;
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    border-bottom: 7px solid #000;
+    display: inline-block;
+    font-family: var(--ubuntu);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.title span{
+    color: #013A68;
+}
+.title p{
+    font-family:var(--ubuntu);
+    margin-bottom: 5rem;
+}
+.see__content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.see__item .img img{
+    width: 100%;
+}
+.see__item .img1 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.see__item{
+    text-align: center;
+}
+.see__item h2{
+    font-family: var(--mono);
+    margin-bottom: 0.8rem;
+}
+.see__item p{
+    font-family: var(--karla);
+    margin-bottom: 0.8rem;
+}
+.see__item h3{
+    font-family: var(--mono);
+    transition: 0.4;
+    cursor: pointer;
+}
+.see__item h3:hover{
+    color: #013A68;
+}
+.best{
+    width: 100%;
+    padding: 4.8rem 0;
+}
+.best .title{
+    margin-bottom: 4rem;
+}
+.clean{
+    width: 100%;
+    padding: 4.8rem 0;
+    background-image: url(/img/img-4.png    ); 
+    text-align: center;
+}
+.clean h2{
+    text-align: center;
+    font-family: var(--ubuntu);
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.clean p{
+    text-align: center;
+    font-family: var(--ubuntu);
+    font-size: 1rem;
+    width: 80%;
+    margin-left: 10%;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+.clean button{
+    padding: 0.7rem 4rem;
+    border: 0;
+    outline: 0;
+    font-family: var(--lato);
+    font-size: 1rem;
+    transition: 0.5s;
+}
+.clean button:hover{
+    background-color: black;
+    color: #fff;
+}
+.choose{
+    width: 100%;
+    padding: 4.8rem 0;
+}
+.choose .title{
+    margin-bottom: 4rem;
+}
+.services__conten{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+.services__item{
+    text-align: center;
+    width: 100%;
+    padding: 2.8rem 0;
+    transition: all 0.8s linear;
+}
+.services__item:hover{
+    background-color: #013A68;
+}
+.services__item h2{
+    font-family: var(--ubuntu);
+    color: red;
+}
+.services__item p{
+    font-family: var(--mono);
+}
+.testimonial{
+    width: 100%;
+    padding: 4.8rem 0;
+}
+.testimonial .title{
+    margin-bottom: 4rem ;
+}
+.customer__content{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.customer__item p{
+    font-family: var(--karla);
+    margin-bottom: 1rem;
+}
+.customer__item span{
+    color: #013A68;
+}
+.customer__item .img img{
+    margin-left: 40%;
+}
+.footer{
+    width: 100%;
+    padding: 4.8rem 0;
+    background-color: #252525;
+}
+.footer__content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer__item h2{
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.footer__item i{
+    color: #929292;
+    font-size: 0.7rem;
+}
+.footer__item a{
+    color: #929292 ;
+    text-align: center;
+}
+.footer__item p{
+    color: #929292;
+}
+.footer__item form{
+    width: 100%;
+}
+.footer__item form input{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    text-indent: 50px;
+    font-size: 1.2rem;
+}
+.footer__item form button{
+    padding: 0.7rem 4rem;
+    color: #fff;
+    background-color: #013A68;
+    border: 0;
+    outline: 0;
+    font-size: 1.2rem;
+    transition: 0.4s;
+}
+.footer__item form button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.social__media{
+    width: 100%;
+    padding: 1.8rem 0;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+.social__media i{
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 2rem;
+}
+.social__media i:hover{
+    color: #013A68;
+}
+.tex{
+    text-align: center;
+    width: 100%;
+    padding: 0.8rem 0;
+} 
+.tex h2{
+    color: #fff;
+}

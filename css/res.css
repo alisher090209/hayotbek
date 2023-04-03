@@ -1,0 +1,54 @@
+@media only screen and (max-width:768px) {
+    
+.nav__nav{
+    display: none;
+}   
+.bars{
+    position: fixed;
+    margin-left: 70%;
+    color: black;
+} 
+.keep__content{
+    display: grid;
+    grid-template-columns:100% ;
+    gap: 3rem;
+}
+.see__content{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.services__conten{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+}
+.customer__content{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.footer__content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+}
+@media only screen and (max-width:368px){
+    
+.bars{
+    display: none;
+} 
+.keep__item h2{
+    font-size: 3.5rem;
+}
+.keep__item button{
+    margin-bottom: 0.5rem;
+}
+.title h2{
+    font-size: 1.5rem;
+}
+
+.footer__content{
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+}
